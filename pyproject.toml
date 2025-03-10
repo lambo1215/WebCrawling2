@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "webcrawling2"
+version = "0.1.0"
+description = "1"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pymongo = "<4.0.0"
+fastapi = "<0.95.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

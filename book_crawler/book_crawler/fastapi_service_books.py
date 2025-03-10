@@ -1,6 +1,7 @@
 from http import HTTPStatus
 from os import getenv
-from typing import Annotated, Any, Mapping
+from typing import Any, Mapping
+from typing_extensions import Annotated
 
 from fastapi import FastAPI, Depends, HTTPException
 from pydantic import BaseModel, Field
